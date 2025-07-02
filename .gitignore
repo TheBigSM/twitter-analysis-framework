@@ -1,0 +1,103 @@
+# Twitter Data Files (Private - Do Not Commit)
+*.jsonl
+climate_tweets2.jsonl
+covid_tweets2.jsonl
+tech_tweets2.jsonl
+
+# Analysis Results and Exports (Private - Do Not Commit)
+*.json
+*_training_data.json
+*_export.json
+*_llm_training_data.json
+climate_*.json
+covid_*.json
+tech_*.json
+
+# Generated CSV Files (Private - Do Not Commit)
+*.csv
+climate_*.csv
+covid_*.csv
+tech_*.csv
+
+# Checkpoint Files (Private - Do Not Commit)
+*_checkpoint.pkl
+*.pkl
+
+# Generated Summary Files (Optional - these could be shared)
+# Remove the # below if you want to keep summary files private
+# *_analysis_summary.md
+
+# Python Cache and Environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*~
+
+# Logs
+*.log
+logs/
+
+# Any sensitive configuration files
+config.json
+secrets.json
+credentials.json
+
+# Large data files (anything over 100MB should generally not be in git)
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# Model files and weights (if any)
+*.model
+*.weights
+*.h5
+
+# Backup files
+*.bak
+*.backup
